@@ -1,0 +1,5 @@
+project_name: "ShadowTask"
+version: "1.0.4"
+lead_developer: "Lucas Thorne"
+contact: "l.thorne@email.com"
+secret: flag{ThE_gi7_C0mMiT_seCret}
