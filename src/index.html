@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowTask // Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <nav class="sidebar">
+        <div class="logo">ST</div>
+        <ul class="nav-links">
+            <li class="active">Tasks</li>
+            <li>Analytics</li>
+            <li>Settings</li>
+        </ul>
+    </nav>
+    <main class="content">
+        <header>
+            <h1>Developer Dashboard v1.0.5</h1>
+            <div class="user-status">Online</div>
+        </header>
+        <div class="grid">
+            <div class="card" id="task-list">
+                <h3>Pending Tasks</h3>
+                <ul id="tasks"></ul>
+            </div>
+            <div class="card">
+                <h3>System Logs</h3>
+                <div class="code-block" id="logs">
+                    [INFO] System initialized...<br>
+                    [WARN] API key not found in env...<br>
+                    [DEBUG] Listening on port 3000...
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
